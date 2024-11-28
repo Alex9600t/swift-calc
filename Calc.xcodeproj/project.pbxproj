@@ -16,7 +16,8 @@
 		46EA8AFB2CF83F4D003D1387 /* CalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EA8AFA2CF83F4D003D1387 /* CalcTests.swift */; };
 		46EA8B052CF83F4D003D1387 /* CalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EA8B042CF83F4D003D1387 /* CalcUITests.swift */; };
 		46EA8B072CF83F4D003D1387 /* CalcUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EA8B062CF83F4D003D1387 /* CalcUITestsLaunchTests.swift */; };
-		46EA8B142CF8743D003D1387 /* swift-og.png in Resources */ = {isa = PBXBuildFile; fileRef = 46EA8B132CF8743D003D1387 /* swift-og.png */; };
+		46EA8B162CF88148003D1387 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 46EA8B152CF88148003D1387 /* Stickers.xcstickers */; };
+		46EA8B182CF882D0003D1387 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46EA8B172CF882D0003D1387 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +51,8 @@
 		46EA8B002CF83F4D003D1387 /* CalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46EA8B042CF83F4D003D1387 /* CalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcUITests.swift; sourceTree = "<group>"; };
 		46EA8B062CF83F4D003D1387 /* CalcUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		46EA8B132CF8743D003D1387 /* swift-og.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "swift-og.png"; path = "../../../../../Downloads/swift-og.png"; sourceTree = "<group>"; };
+		46EA8B152CF88148003D1387 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; path = Stickers.xcstickers; sourceTree = "<group>"; };
+		46EA8B172CF882D0003D1387 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,8 @@
 		46EA8AD72CF83F4B003D1387 = {
 			isa = PBXGroup;
 			children = (
+				46EA8B172CF882D0003D1387 /* Media.xcassets */,
+				46EA8B152CF88148003D1387 /* Stickers.xcstickers */,
 				46EA8AE22CF83F4B003D1387 /* Calc */,
 				46EA8AF92CF83F4D003D1387 /* CalcTests */,
 				46EA8B032CF83F4D003D1387 /* CalcUITests */,
@@ -101,7 +105,6 @@
 		46EA8AE22CF83F4B003D1387 /* Calc */ = {
 			isa = PBXGroup;
 			children = (
-				46EA8B132CF8743D003D1387 /* swift-og.png */,
 				46EA8AE32CF83F4B003D1387 /* AppDelegate.swift */,
 				46EA8AE52CF83F4B003D1387 /* SceneDelegate.swift */,
 				46EA8AE72CF83F4B003D1387 /* ViewController.swift */,
@@ -234,10 +237,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46EA8B182CF882D0003D1387 /* Media.xcassets in Resources */,
 				46EA8AED2CF83F4D003D1387 /* Assets.xcassets in Resources */,
 				46EA8AF02CF83F4D003D1387 /* Base in Resources */,
 				46EA8AEB2CF83F4B003D1387 /* Base in Resources */,
-				46EA8B142CF8743D003D1387 /* swift-og.png in Resources */,
+				46EA8B162CF88148003D1387 /* Stickers.xcstickers in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
