@@ -63,7 +63,7 @@ class ViewController: UIViewController {
     }
     @IBAction func btn_del_act(_ sender: Any) {
         if !expression.isEmpty {
-                expression = String(expression.dropLast()
+                expression = String(expression.dropLast())
             }
     }
     @IBAction func btn_division_act(_ sender: Any) {
